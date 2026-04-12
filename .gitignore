@@ -1,0 +1,12 @@
+# Build artifacts
+peer
+registry
+*.o
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Test data in SharedFiles (keep directory but ignore contents)
+SharedFiles/*
+!SharedFiles/.gitkeep
